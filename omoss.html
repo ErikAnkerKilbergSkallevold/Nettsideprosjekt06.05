@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dataspess</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <header>
+    <nav>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img src="bilder4x/komplett logo.png" alt="Logo">
+        <a class="button" href="hjem.html">Hjem</a>
+        <a class="button active" href="index.html">Datadeler</a>
+        <a class="button" href="salg.html">Salg</a>
+        <a class="button" href="chat.html">Kontakt oss</a>
+        <a class="button" href="login.html">Logg inn</a>
+        <a class="button" href="omoss.html">Om oss</a>
+        <section class="sosial">
+          <div class="ikon">
+            <a href="https://www.facebook.com/search/top/?q=dataspess&ref=eyJxcyI6IkpUVkNKVEl5WkdGMFlYTndaWE56SlRJeUpUVkUiLCJndiI6ImJlZTA5ZjkzZmE3MzJjZmE1OWExY2I2ZDlmNDUwZDM4OTI0MjRlNDkiLCJlbnRfaWRzIjpbXSwiYnNpZCI6ImRkZTFmYzI0MzNiOWE2OGRiMjgzODVkYzVmMTc2ZTI1IiwicHJlbG9hZGVkX2VudGl0eV9pZHMiOm51bGwsInByZWxvYWRlZF9lbnRpdHlfdHlwZSI6bnVsbCwicmVmIjoiYnJfdGYiLCJjc2lkIjpudWxsLCJoaWdoX2NvbmZpZGVuY2VfYXJndW1lbnQiOm51bGwsImNsaWVudF90aW1lX21zIjoxNTU2NTI2MjU1OTg3fQ&epa=SEARCH_BOX"> <img src="bilder/facebook.png" alt=""> </a>
+          </div>
+          <div class="ikon">
+            <a href="https://twitter.com/search?q=dataspess&src=typd"> <img src="bilder/twitter.png" alt=""> </a>
+          </div>
+        </section>
+      </div>
+    </nav>
+  </header>
+  <body id="body">
+      <span class="sticky" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="bilder\Hamburgermeny.png" id="Hamburger" alt="Hamburgermeny"></span>
+    <div class="bannerdatadel">
+    <a href="index.html"><img class="" src="bilder\Komplett banner.png" alt="Dataspess banner"></a>
+    </div>
+
+    <man>
+      <div class="omoss">
+        <b>Om Dataspess</b>
+        <br>
+        <p>Dataspess.no ble etablert i 2019 og er Norges minste nettbutikk. Nettbutikken eies av Dataspess Services AS (org. nr.: 979642121) som er en del av Dataspess Group – Nordens minste netthandelsaktør med 1 nettbutikk. Dataspess Group har 700 medarbeidere og hovedkontor i Sandefjord. Samlet omsetning i 2019 var 0,000001 milliarder norske kroner.</p>
+        <img src="bilder/gladefolk.jpg" alt="Gladefolk">
+      </div>
+    </man>
+
+    <script type="text/javascript">
+
+
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("body").style.marginLeft = "250px";
+      document.getElementById("Hamburger").style.display = "none";
+      document.body.style.backgroundColor = "white";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("body").style.marginLeft = "0";
+      document.getElementById("Hamburger").style.display = "";
+      document.body.style.backgroundColor = "white";
+    }
+
+</script>
+<footer style="margin-top ="200px;"">
+    <div class="footertekst">
+      <p>Vi i Dataspess stiller alltid de høyeste forventningen til produktene våre og sørger for at de er av ypperste kvalitet.</p>
+      <p>Hvis produktet skulle ha ett problem, vær så snill å kontakt oss.</p>
+    </div>
+      <div class="Kontakt">
+        <p>E-post (24/7): kundeservice@dataspess.no</p>
+        <br>
+        <p>Telefon (08:30-17:00): 96541289</p>
+        <br>
+        <p>Faks (24/7): 95541289</p>
+      </div>
+</footer>
+</body>
+</html>
